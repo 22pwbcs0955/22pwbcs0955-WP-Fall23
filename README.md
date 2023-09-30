@@ -11,5 +11,3 @@
     System.out.println("Objects are not equal, hence it returns " + x.equals(y));
     System.out.println("BMW " + x.equals(123.45555));
     }
-
-}
