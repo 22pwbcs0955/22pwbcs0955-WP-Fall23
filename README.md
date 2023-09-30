@@ -1,7 +1,7 @@
 # 22pwbcs0955-WP-Fall23
-public class prime {
 
-    public static void main(String[] args)
+  
+  public static void main(String[] args)
     {
     //creating constructor of the Double class
     Double x = new Double(123.45555);
