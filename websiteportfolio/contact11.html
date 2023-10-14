@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+          
+           
+          body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: url('imageport.jpg') center/cover no-repeat;
+            color: rgba(245, 176, 176, 0.774);
+        }
+
+        header {
+            background-color: rgb(22, 25, 66);
+            color: rgb(44,33,66);
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+    
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: rgb(112, 142, 103);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(54, 43, 43, 0.1);
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid rgb(142, 121, 183);
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: rgb(44,33,66);
+            color: rgb(198, 146, 219);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        </style>
+        <body>
+
+            <header>
+                <h1> Welcome to m portfolio</h1>
+                <p> Eman Sheraz</p>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">skilss</a></li>
+                    <li><a href="#">contact</a></li>
+                    <section id="contact">
+                        <h2>Contact Me</h2>
+                        <div class="contact-form">
+                            <form action="#" method="post">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+                
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                                <button type="submit">Send Message</button>
+                            </form>
+                        </div>
+                    </section>
+                
+                </body>
+                
+                </html>
