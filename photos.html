@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos Gallery</title>
+    <style> body{
+        background-color: rgb(120, 200, 230);}
+    </style>
+<style>
+   .change{
+       float: right;
+       width: fit-content;
+   }
+</style>
+<style>
+   body {
+       font-family: 'Arial', sans-serif;
+       margin: 20px;
+       line-height: 1.6;
+       background-color: rgb(76, 165, 197);
+   }
+ 
+   header, nav, section, footer {
+       margin-bottom: 20px;
+   }
+
+   ul {  
+       list-style-type: none;
+       padding: 5;
+       margin: 6;
+       background-color: rgb(29, 56, 58);
+       overflow: hidden;
+   }
+  
+      
+   li {
+       float: left;
+   }
+
+   li a {
+       display: block;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+   }
+  
+
+   .change {
+       float: right;
+       width: fit-content;
+   }
+</style>
+    </head>
+    <body>
+    
+        <header>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="stories.html">Travel stories</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="photos.html">photos Tips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </head>
+        <body>
+        
+            <header>
+                <h1>Adventurous Tales</h1>
+                <p>Embark on a journey through our captivating travel stories and experiences.</p>
+                <section class="gallery">
+                    
+                    <div>
+                        <img src="pic.jpg" alt="Gallery 1 - Photo 1" onclick="openLightbox('pic.jpg')"width="300" height="300">
+                        <img src="pic1.jpg" alt="Gallery 1 - Photo 2" onclick="openLightbox('pic1.jpg')"width="300" height="300">
+                       
+                    </div>
+                    <div>
+                        <img src="pic4.jpg" alt="Gallery 2 - Photo 1" onclick="openLightbox('pic4.jpg')"width="300" height="300">
+                        <img src="pic3.jpg" alt="Gallery 2-  Photo 2" onclick="openLightbox('pic3.jpg')"width="300" height="300">
+                    </div>
+                    <div>
+                        <img src="pic5.jpg" alt="Gallery 2 - Photo 1" onclick="openLightbox('pic5.jpg')"width="300" height="300">
+                        <img src="pic6.jpg" alt="Gallery 2-  Photo 2" onclick="openLightbox('pic6.jpg')"width="300" height="300">
+                    </div>
+                  
+                </section>
+                <footer>
+                    <p>&copy; 2023 Adventurous Tales. All rights reserved.</p>
+                </footer>
+            
+            </body>
+            </html>
